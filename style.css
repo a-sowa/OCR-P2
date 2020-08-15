@@ -159,3 +159,100 @@ address li {
     padding: 15px 17px 15px 18px;
 }
 
+/*--------- -MAIN ----------*/
+
+main {
+    width: 67%;
+    padding: 0 47px 25px 63px;
+}
+
+.main_titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 0 10px 0;
+    font-size: 20px;
+}
+
+.main_titles i {
+    font-size: 40px;
+    color: #1565C0;
+    margin-right: 36px;
+}
+
+main hr {
+    height: 2px;
+    background-color: #1565C0;
+    border: none;
+    margin-bottom: 50px;
+}
+
+article i {
+    font-size: 10px;
+    color: #1565C0;
+    margin-right: 16px;
+}
+
+.far {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.articles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.dotsndates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dates p {
+    font-weight: bold;
+    width: 150px;
+    font-size: 15px;
+}   
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+}
+
+.article-content h3 {
+    font-size: 1.17rem;
+}
+
+.article-content p {
+    padding: 15px 0;
+}
+
+main li {
+    padding-left: 15px;
+    margin-bottom: 3px;
+    font-weight: 300;
+}
+
+main li:before {
+   content: '- ';
+}
+
+.recommandations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.recommandations_name {
+    font-weight: 500;
+}
+
+.phone_numbers {
+    font-weight: 300;
+}
