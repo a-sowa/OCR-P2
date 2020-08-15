@@ -95,3 +95,67 @@ header hr {
     background-color: #1565C0;
     border: none;
 }
+
+/*-------- ASIDE --------*/
+
+aside {
+    width: 33%;
+    background-color: #1565C0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: space-between;
+}
+
+aside h3 {
+    height: 48px;
+    padding: 12px 0;
+    text-align: center; 
+    background-color: #BBDEFB;
+    color: #1565C0;
+}
+
+address {
+    font-style: normal;
+    margin: 24px 36px;
+}
+
+.address_titles {
+    font-weight: 600;
+}
+
+address li {
+    list-style: none;
+    padding: 12px;
+}
+
+.about p {
+    margin: 24px 36px;
+    padding: 12px;
+}
+
+.hobbies i {
+    font-size: 30px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0 7px;
+}
+
+.hobbies-icons {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.fa-laptop-code {
+    padding: 15px 11px 15px 12px;
+}
+
+.fa-music {
+    padding: 15px;
+}
+
+.fa-utensils {
+    padding: 15px 17px 15px 18px;
+}
+
