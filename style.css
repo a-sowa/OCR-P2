@@ -42,7 +42,13 @@ h3 {
 }
 
 a {
-    color: #fff;
+    color: #000;
+    
+}
+
+a:hover {
+    color: #1565C0;
+    
 }
 
 /*---------- HEADER ------------*/
@@ -115,6 +121,14 @@ aside h3 {
     color: #1565C0;
 }
 
+aside a {
+    color: #fff;
+}
+
+aside a:hover {
+    color: #BBDEFB;
+    
+}
 address {
     font-style: normal;
     margin: 24px 36px;
