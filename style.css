@@ -201,7 +201,7 @@ main hr {
     margin-bottom: 50px;
 }
 
-article i {
+.articles i {
     font-size: 10px;
     color: #1565C0;
     margin-right: 16px;
@@ -280,18 +280,15 @@ main li:before {
 
 @media screen and (max-width: 1129px) {
      .main_titles {
-         display: flex;
          flex-direction: column;
      }
 
      .articles {
-         display: flex;
          flex-direction: column;
          align-content: center;
      }
 
      .dotsndates {
-         display: flex;
          flex-direction: row;
          align-self: center;
      }
@@ -312,7 +309,7 @@ main li:before {
          margin: 0 0 15px 0;
      }
 
-     .recommandations article {
+     .recommandations-content {
          width: 50%;
      }
 
@@ -365,10 +362,10 @@ main li:before {
         align-items: center;
     }
 
-    .recommandations article {
+    .recommandations-content {
         width: auto;
     }
-    .recommandations article:nth-child(1) {
+    .recommandations-content:nth-child(1) {
         margin-bottom: 30px;
     }
 
